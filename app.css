@@ -1,0 +1,57 @@
+/*write my css in here*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+/*what i will be selecting */
+h1{
+/*How I willl style header */
+font-weight: 200;
+/*how to change font weight from bold to your own setting*/
+font-size: 50px;
+text-transform: uppercase;
+border: 2px solid;
+}
+
+body{
+	background-color: #00e6e6;
+	/*building my body and background ref google-fonts*/
+	color: #8c66ff; 
+	font-family: "Source+Code+Pro";
+	font-weight: 200;
+
+}
+img{
+	height: 150px;
+	border-radius: 15%;
+	/*mdn css reference property*/
+}
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	/*allows me to center at 100%h*/
+}
+/*button setup and function*/
+button{
+	/*impact outside spacing*/
+	margin: 30px auto 0;
+	/*inpact spacing within the button*/
+	padding: 20px 25px;
+	background-color: #00e6e6;
+	/*text color within button*/
+	color:#8c66ff;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #8c66ff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 4px;
+	outline: none;
+}
+button:hover{
+	transition: 0.3s;
+	background-color:  #8c66ff;
+	color: #00e6e6;
+	text-decoration: underline;
+}

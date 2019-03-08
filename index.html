@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>My Introduction</title>
-		<link rel="stylesheet" type="text/css" href="app.css">
-	</head>
-<body>
-	<section id="contianer">
-		<h1>Professional Summary</h1>
-		<!-- duplicate command shift+D -->
-			<img src="logo_tech.jpg">
 
-				<p>Tech One knows that the key to a successful project is the experience and attitude of the personnel.</p>
-	<button onclick="alert('I\'ve been clicked!')">review my profile!</button>
-	</section>
-	<!-- <script type="text/javascript"src="app.js"></script> -->
+<head>
+    <title>My Introduction</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <h1>Professional Summary</h1>
+    <form>
+        First Name: <input placeholder="First Name"> Last Name: <input placeholder="Last Name">
+        <input type="submit" value="submit">
+    </form>
+    <h4>My Dream Developer Positions</h4>
+    <input type="radio" id="frontEnd" name="jobs" value="frontEndDeveloper" />
+    <label for="frontEnd">Front End Developer</label><br>
+    <input type="radio" id="backEnd" name="jobs" value="backEndDeveloper" />
+    <label for="backEnd">Back End Developer</label><br>
+    <input type="radio" id="fullStack" name="jobs" value="fullStackDeveloper" />
+    <label for="fullStack">Full Stack Developer</label><br>
+    <input type="radio" id="junior" name="jobs" value="juniorDeveloper" />
+    <label for="junior">Junior Developer</label><br>
+
+    <!-- <button name="submit" type="submit">Submit</button> -->
+    <section id="contianer">
+        <!-- <h1>Professional Summary</h1> -->
+        <!-- duplicate command shift+D -->
+        <!-- <img src="logo_tech.jpg"> -->
+        <p>As a developer I know that the key to a successful project is determination and attitude.</p>
+        <button onclick="alert">review my profile!</button>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>
